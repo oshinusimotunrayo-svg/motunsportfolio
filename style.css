@@ -169,3 +169,25 @@ nav {
   top: 0;
   z-index: 1000;
 }
+/* PROFILE IMAGE */
+.profile-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.profile-img img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ff99aa;
+  box-shadow: 0 10px 25px rgba(255,105,180,0.4);
+  transition: 0.4s;
+}
+
+/* HOVER EFFECT */
+.profile-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(255,105,180,0.6);
+}
